@@ -1,0 +1,25 @@
+controller_names:
+  - fr3_arm_controller
+  - franka_hand
+
+fr3_arm_controller:
+  action_ns: follow_joint_trajectory        # ← keep EXACTLY as original
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - fr3_joint1
+    - fr3_joint2
+    - fr3_joint3
+    - fr3_joint4
+    - fr3_joint5
+    - fr3_joint6
+    - fr3_joint7
+
+franka_hand:
+  type: GripperCommand
+  action_ns: /franka_gripper/gripper_action
+  default: true
+  joints:
+    - fr3_finger_joint1    # one joint is enough; mimic drives the other
+
+

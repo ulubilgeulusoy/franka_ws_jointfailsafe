@@ -1,0 +1,11 @@
+<library path="franka_joint_limit_failsafe">
+  <class
+    name="franka_joint_limit_failsafe/SoftStopGravityController"
+    type="franka_joint_limit_failsafe::SoftStopGravityController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Effort-mode gravity compensation with damping and soft joint-limit torques for kinesthetic teaching.
+    </description>
+  </class>
+</library>
+
