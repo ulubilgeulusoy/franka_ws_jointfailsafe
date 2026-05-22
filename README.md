@@ -237,3 +237,17 @@ Its main contribution is the addition and integration of a joint-limit-aware sof
 - `src/franka_ros2/franka_bringup/config/controllers.yaml`
 
 The repository should be understood as a single source-based backend snapshot intended for building, testing, tuning, and sharing this custom controller behavior.
+
+## License
+
+This repository is licensed under the Apache License 2.0. See [`LICENSE`](LICENSE).
+
+This workspace includes upstream source components in:
+
+- `src/franka_ros2`
+- `src/libfranka`
+
+These upstream components include their own Apache-2.0 license and notice files. Their
+copyright and attribution notices should be preserved.
+
+See also [`NOTICE`](NOTICE) for repository-level third-party attribution context.

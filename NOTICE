@@ -1,0 +1,18 @@
+franka_ws_jointfailsafe
+
+This repository is licensed under the Apache License, Version 2.0.
+
+This workspace includes and/or derives from upstream source components:
+- src/franka_ros2
+- src/libfranka
+
+Those upstream components are licensed under the Apache License, Version 2.0 and include
+their own license and notice files, including:
+- src/franka_ros2/LICENSE
+- src/franka_ros2/NOTICE
+- src/libfranka/LICENSE
+- src/libfranka/NOTICE
+- src/libfranka/common/LICENSE
+- src/libfranka/common/NOTICE
+
+Upstream copyright and attribution notices in those directories must be preserved.
